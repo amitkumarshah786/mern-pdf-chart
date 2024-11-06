@@ -41,13 +41,21 @@ Library Used:
 
 HOW IT WORKS TOGETHER
 1.	PDF Upload & Data Extraction:
-	When a user uploads a PDF, the loadPDF function is triggered.
-	The pdf.js library processes the PDF and extracts the text content from each page.
-	The extracted text is passed to the processTextData function, where it is parsed for sales data based on a regular expression pattern (Region: <region>, Sales: <sales>).
-	The parsed data (region and sales) is stored in an array (chartData).
-2.	Data Visualization:
-	The extracted data is visualized using Chart.js. The generateChart function dynamically creates either a bar or pie chart, depending on the user’s selection in the chart-type dropdown.
-	The chart is drawn on a <canvas> element, and users can switch between different chart types by selecting an option from the dropdown.
-3.	Region Filter:
-	After the data is parsed, the regions are extracted and populated in a filter dropdown.
-	When a region is selected, the chart is re-rendered to show only the data for that specific region.
+ 	When a user uploads a PDF, the loadPDF function is triggered.
+
+ 	The pdf.js library processes the PDF and extracts the text content from each page.
+
+ 	The extracted text is passed to the processTextData function, where it is parsed for sales data based on a regular expression pattern (Region: <region>, Sales: <sales>).
+
+ 	The parsed data (region and sales) is stored in an array (chartData).
+
+3.	Data Visualization:
+4.	
+ 	The extracted data is visualized using Chart.js. The generateChart function dynamically creates either a bar or pie chart, depending on the user’s selection in the chart-type dropdown.
+
+ 	The chart is drawn on a <canvas> element, and users can switch between different chart types by selecting an option from the dropdown.
+
+6.	Region Filter:
+ 	After the data is parsed, the regions are extracted and populated in a filter dropdown.
+
+ 	When a region is selected, the chart is re-rendered to show only the data for that specific region.
