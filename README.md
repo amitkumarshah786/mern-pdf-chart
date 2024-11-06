@@ -14,14 +14,16 @@ By adopting these technologies, the tool is not only versatile in its environmen
 Library Used:
 1. pdf.js
  	Purpose: pdf.js is a JavaScript library used to parse PDF files and extract their content in a structured manner (such as text, images, and other media).
+
  	How It Works:
 	When a PDF file is uploaded, the tool loads the file using pdf.js.
 	The pdf.js library extracts text content from each page of the PDF and provides access to it.
 	The extracted text is then processed and parsed to identify sales data (region and sales).
 	pdf.js ensures compatibility with all modern browsers and provides accurate text extraction from PDF documents.
  	Documentation: pdf.js Documentation
-2. Chart.js
+3. Chart.js
  	Purpose: Chart.js is a powerful and flexible JavaScript charting library used to create interactive and responsive charts.
+
  	How It Works:
 	Once the data is extracted from the PDF, Chart.js is used to visualize the data in a bar or pie chart.
 	The tool creates a canvas element where the chart is rendered, and the chart type (bar or pie) can be toggled by the user.
