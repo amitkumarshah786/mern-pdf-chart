@@ -16,19 +16,26 @@ Library Used:
  	Purpose: pdf.js is a JavaScript library used to parse PDF files and extract their content in a structured manner (such as text, images, and other media).
 
  	How It Works:
-	When a PDF file is uploaded, the tool loads the file using pdf.js.
-	The pdf.js library extracts text content from each page of the PDF and provides access to it.
-	The extracted text is then processed and parsed to identify sales data (region and sales).
-	pdf.js ensures compatibility with all modern browsers and provides accurate text extraction from PDF documents.
+When a PDF file is uploaded, the tool loads the file using pdf.js.
+
+The pdf.js library extracts text content from each page of the PDF and provides access to it.
+
+The extracted text is then processed and parsed to identify sales data (region and sales).
+
+pdf.js ensures compatibility with all modern browsers and provides accurate text extraction from PDF documents.
+
  	Documentation: pdf.js Documentation
 3. Chart.js
  	Purpose: Chart.js is a powerful and flexible JavaScript charting library used to create interactive and responsive charts.
 
  	How It Works:
-	Once the data is extracted from the PDF, Chart.js is used to visualize the data in a bar or pie chart.
-	The tool creates a canvas element where the chart is rendered, and the chart type (bar or pie) can be toggled by the user.
-	Data for the chart is dynamically populated based on the extracted information, such as region names and corresponding sales figures.
-	The chart is fully interactive, allowing users to see labels, hover over data points, and switch between chart types.
+Once the data is extracted from the PDF, Chart.js is used to visualize the data in a bar or pie chart.
+
+The tool creates a canvas element where the chart is rendered, and the chart type (bar or pie) can be toggled by the user.
+
+Data for the chart is dynamically populated based on the extracted information, such as region names and corresponding sales figures.
+
+The chart is fully interactive, allowing users to see labels, hover over data points, and switch between chart types.
 
 HOW IT WORKS TOGETHER
 1.	PDF Upload & Data Extraction:
